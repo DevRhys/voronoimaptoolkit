@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.homepage         = 'https://github.com/<DevRhys>/voronoimaptoolkit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Rhys D. Jones' => 'rhys@digitalcicadas.com' }
-  s.source           = { :git => 'https://github.com/<DevRhys>/voronoimaptoolkit.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/DevRhys/voronoimaptoolkit.git', :tag => s.version.to_s }
 
   s.ios.deployment_target = '8.0'
 

@@ -1,9 +1,9 @@
 {
   "name": "voronoimaptoolkit",
   "version": "0.1.0",
-  "summary": "A short description of voronoimaptoolkit.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/voronoimaptoolkit",
+  "summary": "Create and display Voronoi tessellations on MKMapView.",
+  "description": "Create and display Voronoi tessellations as overlays of an MKMapView inside a UIViewController subclass. Includes custom MKPolygon subclasses to represent Voronoi cells, custom draggable annotations corresponding to Voronoi sites, a wrapper class for MKMapView, and a UIViewController that manages the display and animation of the tessellation.",
+  "homepage": "https://github.com/<DevRhys>/voronoimaptoolkit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "Rhys D. Jones": "rhys@digitalcicadas.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/voronoimaptoolkit.git",
+    "git": "https://github.com/DevRhys/voronoimaptoolkit.git",
     "tag": "0.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "voronoimaptoolkit/Classes/**/*"
+  "source_files": "voronoimaptoolkit/Classes/**/*.{h,m}",
+  "dependencies": {
+    "iosvoronoi": [
+
+    ]
+  }
 }

@@ -7,72 +7,154 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		382D7A981F6BD545DAD8364AE9DD6207 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		4E57B41DC396778AA5B06584E14AB785 /* voronoimaptoolkit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C661B040A18AA28ACAD75A091EB94E5 /* voronoimaptoolkit-dummy.m */; };
-		5110FE5E5941F6FD5C04AD4421C6186E /* voronoimaptoolkit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 592FA016ED6ABA027F88CF392FF5987B /* voronoimaptoolkit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		54A52117B0BC0A5261DF3CEE5C90FAE0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		5A42417ED1C20571CA56E34CE308BCE9 /* Pods-voronoimaptoolkit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AA023749A54E9130C6545C98D1C995 /* Pods-voronoimaptoolkit_Example-dummy.m */; };
+		12FF1E483DC8071C5364AF172A205571 /* Cell.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E85BB737A713E9E14A469A7CF6F6142 /* Cell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2627BA47C910887B877D64F907A07BC3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507537CCB227D03A3A89CFB73291C4AF /* Foundation.framework */; };
+		2CEBEC05BFFB2DDD18AD0DABC961D970 /* Site.h in Headers */ = {isa = PBXBuildFile; fileRef = A514B0843ED4980C087953892BA5E33A /* Site.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32C47ED1E9BB21E4F8BE41F2CCDA3A69 /* VoronoiConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 62FBD54C68D8E9811F22DB1FA1623BC9 /* VoronoiConstants.m */; };
+		32FAAF1193B27EB6DDF4F2A0A00076B7 /* CircleEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 173C6579D9AD38595BF689A34033B535 /* CircleEvent.m */; };
+		34D685F18C97C0631D6BE4BFAA8DC768 /* Pods-voronoimaptoolkit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE52D6CCDAA72E8538CC2E5A017BF5D /* Pods-voronoimaptoolkit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		351710E8E5A77EB6DC7CA2796AB2D9AE /* VoronoiConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 147DFB0C8371EBC8300CD9231FA35452 /* VoronoiConstants.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		382D7A981F6BD545DAD8364AE9DD6207 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507537CCB227D03A3A89CFB73291C4AF /* Foundation.framework */; };
+		384D7E1E57ABD1AB58905A97392402D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507537CCB227D03A3A89CFB73291C4AF /* Foundation.framework */; };
+		3B15F094696F2A5F77E375F265EA24B8 /* Halfedge.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D92F32174F0AC0654F18F403E060BD2 /* Halfedge.m */; };
+		3F82DCE7F1C99E83DCFE6E86F2E86152 /* Voronoi.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BEA15E92A66637204EFDA0E1DB00B49 /* Voronoi.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4038D08E27C5E3100DCB53CB73FC0F6E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 507537CCB227D03A3A89CFB73291C4AF /* Foundation.framework */; };
+		418E58E098F0BAA288DD2DE091B49356 /* VoronoiResult.h in Headers */ = {isa = PBXBuildFile; fileRef = E5BD0652ED97CFCD27204F1E3EADC8C1 /* VoronoiResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42B30E3E68A2FE9F5D5BA6B8F7B8F167 /* RBTree.m in Sources */ = {isa = PBXBuildFile; fileRef = FCD7711BF63F973AF5F8ED8A13A7F9F7 /* RBTree.m */; };
+		546B191066C0E648CF9A68DB2DBC86B1 /* iosvoronoi-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6719C00C6271E071F0EF5BCA760A186F /* iosvoronoi-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		66584D960A148B48BCF84A4F747C113C /* Cell.m in Sources */ = {isa = PBXBuildFile; fileRef = 22697C7B2BB921AC46E5AE932B066055 /* Cell.m */; };
+		6D064B4B1E739840EE988FCCD368476A /* Beachsection.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EFF8866871B3208DF273507BC47A39E /* Beachsection.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7AE9AB4C6DA2BECEFA33689BEF6DAA5A /* Pods-voronoimaptoolkit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0A7B5E2BF0B199AEC640EE6DE2C2A77 /* Pods-voronoimaptoolkit_Tests-dummy.m */; };
-		917BC5D3584403E3D6742957310D9D62 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 10D0820CCAE266063D59E1DB289BDA86 /* ReplaceMe.m */; };
-		BDEDA4C423B560E74F2A1A2D21D3A607 /* Pods-voronoimaptoolkit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1FE52D6CCDAA72E8538CC2E5A017BF5D /* Pods-voronoimaptoolkit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		80B01B2559A89FB7A514C0D34DE56777 /* Edge.m in Sources */ = {isa = PBXBuildFile; fileRef = 52BF055E7DBEB1690F36B9C041BDAC2C /* Edge.m */; };
+		89E7279A49E2B15DA07963049DCC7723 /* Pods-voronoimaptoolkit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E9AA023749A54E9130C6545C98D1C995 /* Pods-voronoimaptoolkit_Example-dummy.m */; };
+		8F3069F3DF5B5A261BA0DD19E72C041E /* Edge.h in Headers */ = {isa = PBXBuildFile; fileRef = 224EE4000ACAAA7BB50DB00D46068C22 /* Edge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91A3DDA591714193D2D6BE69AF5E0C91 /* Vertex.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F99710609E80D0F6132F8C8CB3A110B /* Vertex.m */; };
+		97F63023F48AFA4BFBB11703DE9D4710 /* ClayRelaxer.h in Headers */ = {isa = PBXBuildFile; fileRef = E6C60C7755F3E3CB79728220AB42D0EF /* ClayRelaxer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		98F3A6191DBFDECF00842294 /* BHEVoronoiCellTower.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F3A6171DBFDECF00842294 /* BHEVoronoiCellTower.h */; };
+		98F3A61A1DBFDECF00842294 /* BHEVoronoiCellTower.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F3A6181DBFDECF00842294 /* BHEVoronoiCellTower.m */; };
+		98F3A6211DBFE15F00842294 /* BHEVoronoiCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F3A61F1DBFE15F00842294 /* BHEVoronoiCell.h */; };
+		98F3A6221DBFE15F00842294 /* BHEVoronoiCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F3A6201DBFE15F00842294 /* BHEVoronoiCell.m */; };
+		98F3A62D1DBFF25000842294 /* BHEVoronoiMapViewWrapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F3A62B1DBFF25000842294 /* BHEVoronoiMapViewWrapper.h */; };
+		98F3A62E1DBFF25000842294 /* BHEVoronoiMapViewWrapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F3A62C1DBFF25000842294 /* BHEVoronoiMapViewWrapper.m */; };
+		98F3A6311DBFF43100842294 /* BHEConstants.h in Headers */ = {isa = PBXBuildFile; fileRef = 98F3A62F1DBFF43100842294 /* BHEConstants.h */; };
+		98F3A6331DBFF78900842294 /* voronoimaptoolkit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7C661B040A18AA28ACAD75A091EB94E5 /* voronoimaptoolkit-dummy.m */; };
+		A95CBE820C23BAAE1BCBD2C5D26B89F9 /* voronoimaptoolkit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 592FA016ED6ABA027F88CF392FF5987B /* voronoimaptoolkit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AF7CEA44AD20F165C97764FECD23BCB1 /* iosvoronoi-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BCB5F21ABA6C00D05F416E6BBFBE7754 /* iosvoronoi-dummy.m */; };
+		B4F476922F7EEA95DC05B65CC7A6384C /* Halfedge.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C77C188530A1DE8EB6D73B994341182 /* Halfedge.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B5062E0909DB7C980A081268A45DD26E /* Vertex.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F6A4FEC77665961B055D67B5E707134 /* Vertex.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B766E023EAA813A835EB1CED4ECA490C /* Beachsection.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DBC0762DF02B73A01500D553CF9A70 /* Beachsection.m */; };
+		B991A2E8A17D52D3423A642BB56C0DDB /* ClayPathMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 45AAE24C600CF3DCE780496F893364EB /* ClayPathMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6E337C1ECC138308F7103F14D33C41A /* RBTree.h in Headers */ = {isa = PBXBuildFile; fileRef = 7B46E284EB24EA4061B454F6F603D870 /* RBTree.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C715C380E9ABC2E71A8378A4FC22791B /* Site.m in Sources */ = {isa = PBXBuildFile; fileRef = 203B31BDF45E9B2B234AB184021F4F72 /* Site.m */; };
+		D3D391D6233505657EB80F4F7368A0CC /* ClayRelaxer.m in Sources */ = {isa = PBXBuildFile; fileRef = 618D67F987084FBDABF6A89EC2AA9F04 /* ClayRelaxer.m */; };
+		D6BBAA7D8AE379545F50C6CB67D0E2CB /* CircleEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 91C7D8E2664CD84176B46A4769DA94DE /* CircleEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E3A397C282A68A4E3ABA574158F17AEA /* ClayPathMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 049C1BEB03E4156A71CC68BCE687BCB4 /* ClayPathMaker.m */; };
+		E4A27EEB55C7D7555AFD554A369D06AA /* Voronoi.m in Sources */ = {isa = PBXBuildFile; fileRef = 3ACD3DCCAD7660FA9AEDBC0274C26DF4 /* Voronoi.m */; };
 		E4BC2CB6249772F3DA1B52E2825C970B /* Pods-voronoimaptoolkit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E0FB4C938A52D96CDE89D3E102D27F2 /* Pods-voronoimaptoolkit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F3496CB44BC9036F146D9251E6C00C53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		F1ADDF99C8C9A1317718F42D90B8B568 /* iosvoronoi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2DFCFB7A1E8467B56774B3A8E835B58D /* iosvoronoi.framework */; };
+		FB51FA5CF6D46944A1862AD494B4037B /* VoronoiResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 8232CAC4FF12807CE6DEF8D17C7C9979 /* VoronoiResult.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		09B927DB5A29E31B0D8F68DA57E63A0C /* PBXContainerItemProxy */ = {
+		570A10702D979AB58601545397F4AC6D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 36758A5E4F76CC01051A2FAA4BCB3938;
+			remoteGlobalIDString = EE2AB50D3389C08B14A47AE3850A5CC0;
+			remoteInfo = iosvoronoi;
+		};
+		74C37DE659B9271A227912F241472770 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE2AB50D3389C08B14A47AE3850A5CC0;
+			remoteInfo = iosvoronoi;
+		};
+		A7E364567F65ED7A78BD08441833FA5C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13AE08D55E1EFCF9274637CC71C176F7;
 			remoteInfo = voronoimaptoolkit;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		02F469AD14D8F9B9986A4E5FD0B04D0B /* Pods-voronoimaptoolkit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-voronoimaptoolkit_Example-resources.sh"; sourceTree = "<group>"; };
-		051AD2329DBE912595D08B835F81A9A0 /* Pods_voronoimaptoolkit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_voronoimaptoolkit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		049C1BEB03E4156A71CC68BCE687BCB4 /* ClayPathMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClayPathMaker.m; path = iosvoronoi/Classes/ClayPathMaker.m; sourceTree = "<group>"; };
 		064C5886AC876885B7A6C3663CC2C4AD /* Pods-voronoimaptoolkit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-voronoimaptoolkit_Tests.modulemap"; sourceTree = "<group>"; };
-		10D0820CCAE266063D59E1DB289BDA86 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ReplaceMe.m; sourceTree = "<group>"; };
+		11D37DF8244886F8115542E6F164F762 /* Pods_voronoimaptoolkit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_voronoimaptoolkit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		147DFB0C8371EBC8300CD9231FA35452 /* VoronoiConstants.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VoronoiConstants.h; path = iosvoronoi/Classes/VoronoiConstants.h; sourceTree = "<group>"; };
+		173C6579D9AD38595BF689A34033B535 /* CircleEvent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = CircleEvent.m; path = iosvoronoi/Classes/CircleEvent.m; sourceTree = "<group>"; };
 		19A353D2DF1A11C7136BF81B11902265 /* Pods-voronoimaptoolkit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-voronoimaptoolkit_Tests-resources.sh"; sourceTree = "<group>"; };
 		1FE52D6CCDAA72E8538CC2E5A017BF5D /* Pods-voronoimaptoolkit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-voronoimaptoolkit_Example-umbrella.h"; sourceTree = "<group>"; };
-		296A292D960AF134A94A5A0495C027D9 /* voronoimaptoolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = voronoimaptoolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		203B31BDF45E9B2B234AB184021F4F72 /* Site.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Site.m; path = iosvoronoi/Classes/Site.m; sourceTree = "<group>"; };
+		224EE4000ACAAA7BB50DB00D46068C22 /* Edge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Edge.h; path = iosvoronoi/Classes/Edge.h; sourceTree = "<group>"; };
+		22697C7B2BB921AC46E5AE932B066055 /* Cell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Cell.m; path = iosvoronoi/Classes/Cell.m; sourceTree = "<group>"; };
 		2C96FC6F06D643D4457932C8ACF4B2BD /* Pods-voronoimaptoolkit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-voronoimaptoolkit_Example.modulemap"; sourceTree = "<group>"; };
+		2DFCFB7A1E8467B56774B3A8E835B58D /* iosvoronoi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iosvoronoi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E0FB4C938A52D96CDE89D3E102D27F2 /* Pods-voronoimaptoolkit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-voronoimaptoolkit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3ACD3DCCAD7660FA9AEDBC0274C26DF4 /* Voronoi.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Voronoi.m; path = iosvoronoi/Classes/Voronoi.m; sourceTree = "<group>"; };
 		3E4CFA97C9FC112466FF19E801C580F2 /* Pods-voronoimaptoolkit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-voronoimaptoolkit_Example-frameworks.sh"; sourceTree = "<group>"; };
-		3E9565019CB626EDD8A071AA0C760B95 /* Pods_voronoimaptoolkit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_voronoimaptoolkit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45AAE24C600CF3DCE780496F893364EB /* ClayPathMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClayPathMaker.h; path = iosvoronoi/Classes/ClayPathMaker.h; sourceTree = "<group>"; };
+		4BEA15E92A66637204EFDA0E1DB00B49 /* Voronoi.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Voronoi.h; path = iosvoronoi/Classes/Voronoi.h; sourceTree = "<group>"; };
+		4F6A4FEC77665961B055D67B5E707134 /* Vertex.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Vertex.h; path = iosvoronoi/Classes/Vertex.h; sourceTree = "<group>"; };
+		507537CCB227D03A3A89CFB73291C4AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		52BF055E7DBEB1690F36B9C041BDAC2C /* Edge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Edge.m; path = iosvoronoi/Classes/Edge.m; sourceTree = "<group>"; };
 		592FA016ED6ABA027F88CF392FF5987B /* voronoimaptoolkit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "voronoimaptoolkit-umbrella.h"; sourceTree = "<group>"; };
+		5C77C188530A1DE8EB6D73B994341182 /* Halfedge.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Halfedge.h; path = iosvoronoi/Classes/Halfedge.h; sourceTree = "<group>"; };
+		5D92F32174F0AC0654F18F403E060BD2 /* Halfedge.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Halfedge.m; path = iosvoronoi/Classes/Halfedge.m; sourceTree = "<group>"; };
+		618D67F987084FBDABF6A89EC2AA9F04 /* ClayRelaxer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ClayRelaxer.m; path = iosvoronoi/Classes/ClayRelaxer.m; sourceTree = "<group>"; };
 		61EF7E772269107D67779EC3AFBAD969 /* Pods-voronoimaptoolkit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-voronoimaptoolkit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		62FBD54C68D8E9811F22DB1FA1623BC9 /* VoronoiConstants.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VoronoiConstants.m; path = iosvoronoi/Classes/VoronoiConstants.m; sourceTree = "<group>"; };
 		66A667E13D5047287924618645885CE3 /* voronoimaptoolkit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = voronoimaptoolkit.modulemap; sourceTree = "<group>"; };
+		6719C00C6271E071F0EF5BCA760A186F /* iosvoronoi-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iosvoronoi-umbrella.h"; sourceTree = "<group>"; };
+		6EFF8866871B3208DF273507BC47A39E /* Beachsection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Beachsection.h; path = iosvoronoi/Classes/Beachsection.h; sourceTree = "<group>"; };
+		6F99710609E80D0F6132F8C8CB3A110B /* Vertex.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Vertex.m; path = iosvoronoi/Classes/Vertex.m; sourceTree = "<group>"; };
+		7B46E284EB24EA4061B454F6F603D870 /* RBTree.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RBTree.h; path = iosvoronoi/Classes/RBTree.h; sourceTree = "<group>"; };
+		7C4714BE30928FD07E6C4D752B795390 /* voronoimaptoolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = voronoimaptoolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C661B040A18AA28ACAD75A091EB94E5 /* voronoimaptoolkit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "voronoimaptoolkit-dummy.m"; sourceTree = "<group>"; };
+		818A482ACE6E3285685847130F79D50B /* iosvoronoi.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iosvoronoi.xcconfig; sourceTree = "<group>"; };
+		8232CAC4FF12807CE6DEF8D17C7C9979 /* VoronoiResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = VoronoiResult.m; path = iosvoronoi/Classes/VoronoiResult.m; sourceTree = "<group>"; };
 		83E148EB036AFB6D7FBA83C398963ECF /* Pods-voronoimaptoolkit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-voronoimaptoolkit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		86F1592693937FEE788D9B3D0D33BB0B /* iosvoronoi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = iosvoronoi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AF01D59F9F833EB38F45BDCB71FDA83 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		91C7D8E2664CD84176B46A4769DA94DE /* CircleEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CircleEvent.h; path = iosvoronoi/Classes/CircleEvent.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		979E7F7072EC21BCB86FEFA606AC9135 /* Pods_voronoimaptoolkit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_voronoimaptoolkit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F3A6171DBFDECF00842294 /* BHEVoronoiCellTower.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHEVoronoiCellTower.h; sourceTree = "<group>"; };
+		98F3A6181DBFDECF00842294 /* BHEVoronoiCellTower.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHEVoronoiCellTower.m; sourceTree = "<group>"; };
+		98F3A61F1DBFE15F00842294 /* BHEVoronoiCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHEVoronoiCell.h; sourceTree = "<group>"; };
+		98F3A6201DBFE15F00842294 /* BHEVoronoiCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHEVoronoiCell.m; sourceTree = "<group>"; };
+		98F3A62B1DBFF25000842294 /* BHEVoronoiMapViewWrapper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHEVoronoiMapViewWrapper.h; sourceTree = "<group>"; };
+		98F3A62C1DBFF25000842294 /* BHEVoronoiMapViewWrapper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BHEVoronoiMapViewWrapper.m; sourceTree = "<group>"; };
+		98F3A62F1DBFF43100842294 /* BHEConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BHEConstants.h; sourceTree = "<group>"; };
+		9E85BB737A713E9E14A469A7CF6F6142 /* Cell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Cell.h; path = iosvoronoi/Classes/Cell.h; sourceTree = "<group>"; };
 		A0A7B5E2BF0B199AEC640EE6DE2C2A77 /* Pods-voronoimaptoolkit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-voronoimaptoolkit_Tests-dummy.m"; sourceTree = "<group>"; };
 		A20608437D48AF0485793A7BE056E91B /* Pods-voronoimaptoolkit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-voronoimaptoolkit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		A3644DE72645C0DAD8D5487EC0E73624 /* Pods-voronoimaptoolkit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-voronoimaptoolkit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A42983A59C3F1075A927ED6EB855D10B /* Pods-voronoimaptoolkit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-voronoimaptoolkit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		A514B0843ED4980C087953892BA5E33A /* Site.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Site.h; path = iosvoronoi/Classes/Site.h; sourceTree = "<group>"; };
 		AD198DF9D699808112F2836CD98BDB66 /* Pods-voronoimaptoolkit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-voronoimaptoolkit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		BC9A64089852D935640263939B57E976 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB5F21ABA6C00D05F416E6BBFBE7754 /* iosvoronoi-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iosvoronoi-dummy.m"; sourceTree = "<group>"; };
 		C9D73BCA252508E498EC3EC3953B5404 /* Pods-voronoimaptoolkit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-voronoimaptoolkit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CCC66F260757436E4745AECECEDAAEA3 /* iosvoronoi-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iosvoronoi-prefix.pch"; sourceTree = "<group>"; };
+		D1DBC0762DF02B73A01500D553CF9A70 /* Beachsection.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Beachsection.m; path = iosvoronoi/Classes/Beachsection.m; sourceTree = "<group>"; };
 		DD28172D16CF6D28F6A254F4E3F82917 /* voronoimaptoolkit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "voronoimaptoolkit-prefix.pch"; sourceTree = "<group>"; };
+		E5BD0652ED97CFCD27204F1E3EADC8C1 /* VoronoiResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VoronoiResult.h; path = iosvoronoi/Classes/VoronoiResult.h; sourceTree = "<group>"; };
 		E6A77074B6BC3C90C39CDB43205B1678 /* Pods-voronoimaptoolkit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-voronoimaptoolkit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		E6C60C7755F3E3CB79728220AB42D0EF /* ClayRelaxer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ClayRelaxer.h; path = iosvoronoi/Classes/ClayRelaxer.h; sourceTree = "<group>"; };
 		E9AA023749A54E9130C6545C98D1C995 /* Pods-voronoimaptoolkit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-voronoimaptoolkit_Example-dummy.m"; sourceTree = "<group>"; };
+		ECDE585D0828A3CA894C8D0881D1B902 /* iosvoronoi.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = iosvoronoi.modulemap; sourceTree = "<group>"; };
 		EDED99B45FE8FF8086C8543AE676685F /* voronoimaptoolkit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = voronoimaptoolkit.xcconfig; sourceTree = "<group>"; };
 		F00DF4D269670DA4E757E25A5EECE3D0 /* Pods-voronoimaptoolkit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-voronoimaptoolkit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F9B60F2BC7DAC13E99C6318C6A5C2B6E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCD7711BF63F973AF5F8ED8A13A7F9F7 /* RBTree.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RBTree.m; path = iosvoronoi/Classes/RBTree.m; sourceTree = "<group>"; };
+		FF41830C6F81A966689BF7193733590E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1BF54D93CFF138C4CFE0B56E02F29474 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				54A52117B0BC0A5261DF3CEE5C90FAE0 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		56965834FD3F0B8BDDD4F42A951C2775 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -81,11 +163,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C885505E8B03F6ACB0F3344AC4B2AF5E /* Frameworks */ = {
+		6F35611A6A76F8FD3DBC6BF28F74AC68 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F3496CB44BC9036F146D9251E6C00C53 /* Foundation.framework in Frameworks */,
+				4038D08E27C5E3100DCB53CB73FC0F6E /* Foundation.framework in Frameworks */,
+				F1ADDF99C8C9A1317718F42D90B8B568 /* iosvoronoi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		750AAC7DC60FD5EAAFA391BEBFC57098 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				384D7E1E57ABD1AB58905A97392402D5 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA5F10BE5783C0A44CB585AE1B998C86 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2627BA47C910887B877D64F907A07BC3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,12 +200,31 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+		2484279858CF2B57747EEA13BC33BD5C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+				86F1592693937FEE788D9B3D0D33BB0B /* iosvoronoi.framework */,
+				11D37DF8244886F8115542E6F164F762 /* Pods_voronoimaptoolkit_Example.framework */,
+				979E7F7072EC21BCB86FEFA606AC9135 /* Pods_voronoimaptoolkit_Tests.framework */,
+				7C4714BE30928FD07E6C4D752B795390 /* voronoimaptoolkit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		49AAA81A3E0CA5D6C69682FDE97BDD74 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				507537CCB227D03A3A89CFB73291C4AF /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		4F08C1D1524E806C0DA280CACB253387 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				68E9FE4028B44D769C7579EF215C35AF /* iosvoronoi */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		51E0F0BC5A6CCE1DD6D671996DD7722B /* Pods-voronoimaptoolkit_Tests */ = {
@@ -135,14 +253,38 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		5B4850A0AE4083FEE8D6AEC682FE215F /* Products */ = {
+		68E9FE4028B44D769C7579EF215C35AF /* iosvoronoi */ = {
 			isa = PBXGroup;
 			children = (
-				051AD2329DBE912595D08B835F81A9A0 /* Pods_voronoimaptoolkit_Example.framework */,
-				3E9565019CB626EDD8A071AA0C760B95 /* Pods_voronoimaptoolkit_Tests.framework */,
-				296A292D960AF134A94A5A0495C027D9 /* voronoimaptoolkit.framework */,
+				6EFF8866871B3208DF273507BC47A39E /* Beachsection.h */,
+				D1DBC0762DF02B73A01500D553CF9A70 /* Beachsection.m */,
+				9E85BB737A713E9E14A469A7CF6F6142 /* Cell.h */,
+				22697C7B2BB921AC46E5AE932B066055 /* Cell.m */,
+				91C7D8E2664CD84176B46A4769DA94DE /* CircleEvent.h */,
+				173C6579D9AD38595BF689A34033B535 /* CircleEvent.m */,
+				45AAE24C600CF3DCE780496F893364EB /* ClayPathMaker.h */,
+				049C1BEB03E4156A71CC68BCE687BCB4 /* ClayPathMaker.m */,
+				E6C60C7755F3E3CB79728220AB42D0EF /* ClayRelaxer.h */,
+				618D67F987084FBDABF6A89EC2AA9F04 /* ClayRelaxer.m */,
+				224EE4000ACAAA7BB50DB00D46068C22 /* Edge.h */,
+				52BF055E7DBEB1690F36B9C041BDAC2C /* Edge.m */,
+				5C77C188530A1DE8EB6D73B994341182 /* Halfedge.h */,
+				5D92F32174F0AC0654F18F403E060BD2 /* Halfedge.m */,
+				7B46E284EB24EA4061B454F6F603D870 /* RBTree.h */,
+				FCD7711BF63F973AF5F8ED8A13A7F9F7 /* RBTree.m */,
+				A514B0843ED4980C087953892BA5E33A /* Site.h */,
+				203B31BDF45E9B2B234AB184021F4F72 /* Site.m */,
+				4F6A4FEC77665961B055D67B5E707134 /* Vertex.h */,
+				6F99710609E80D0F6132F8C8CB3A110B /* Vertex.m */,
+				4BEA15E92A66637204EFDA0E1DB00B49 /* Voronoi.h */,
+				3ACD3DCCAD7660FA9AEDBC0274C26DF4 /* Voronoi.m */,
+				147DFB0C8371EBC8300CD9231FA35452 /* VoronoiConstants.h */,
+				62FBD54C68D8E9811F22DB1FA1623BC9 /* VoronoiConstants.m */,
+				E5BD0652ED97CFCD27204F1E3EADC8C1 /* VoronoiResult.h */,
+				8232CAC4FF12807CE6DEF8D17C7C9979 /* VoronoiResult.m */,
+				8B8AD4F50FE7F5AAD12BD9C0A9054E7E /* Support Files */,
 			);
-			name = Products;
+			path = iosvoronoi;
 			sourceTree = "<group>";
 		};
 		6AF8D2765943D63FF5B40B35A071A649 /* Pods-voronoimaptoolkit_Example */ = {
@@ -168,10 +310,34 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				52757551712E0AF1D5B7DB204FC02EE2 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				5B4850A0AE4083FEE8D6AEC682FE215F /* Products */,
+				816CE97AF8B531C56489C5CED9621C9D /* Frameworks */,
+				4F08C1D1524E806C0DA280CACB253387 /* Pods */,
+				2484279858CF2B57747EEA13BC33BD5C /* Products */,
 				134B6C289BA29D66ABB03AC3CF6E48A1 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		816CE97AF8B531C56489C5CED9621C9D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2DFCFB7A1E8467B56774B3A8E835B58D /* iosvoronoi.framework */,
+				49AAA81A3E0CA5D6C69682FDE97BDD74 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8B8AD4F50FE7F5AAD12BD9C0A9054E7E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF41830C6F81A966689BF7193733590E /* Info.plist */,
+				ECDE585D0828A3CA894C8D0881D1B902 /* iosvoronoi.modulemap */,
+				818A482ACE6E3285685847130F79D50B /* iosvoronoi.xcconfig */,
+				BCB5F21ABA6C00D05F416E6BBFBE7754 /* iosvoronoi-dummy.m */,
+				CCC66F260757436E4745AECECEDAAEA3 /* iosvoronoi-prefix.pch */,
+				6719C00C6271E071F0EF5BCA760A186F /* iosvoronoi-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/iosvoronoi";
 			sourceTree = "<group>";
 		};
 		B5A0ABFC87103425698289651EB075B1 /* voronoimaptoolkit */ = {
@@ -185,17 +351,15 @@
 		BB69DAD2AE678853CAD8344047955759 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				10D0820CCAE266063D59E1DB289BDA86 /* ReplaceMe.m */,
+				98F3A6171DBFDECF00842294 /* BHEVoronoiCellTower.h */,
+				98F3A6181DBFDECF00842294 /* BHEVoronoiCellTower.m */,
+				98F3A61F1DBFE15F00842294 /* BHEVoronoiCell.h */,
+				98F3A6201DBFE15F00842294 /* BHEVoronoiCell.m */,
+				98F3A62B1DBFF25000842294 /* BHEVoronoiMapViewWrapper.h */,
+				98F3A62C1DBFF25000842294 /* BHEVoronoiMapViewWrapper.m */,
+				98F3A62F1DBFF43100842294 /* BHEConstants.h */,
 			);
 			path = Classes;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		D7BC38B629573FFA6EFAB3315D7BD9BE /* voronoimaptoolkit */ = {
@@ -233,25 +397,68 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1E532E78AEE9126797E3A99F50FAD152 /* Headers */ = {
+		2AF5D242443BBFBADA988BF44BE60E10 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5110FE5E5941F6FD5C04AD4421C6186E /* voronoimaptoolkit-umbrella.h in Headers */,
+				A95CBE820C23BAAE1BCBD2C5D26B89F9 /* voronoimaptoolkit-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D2F88F54A4789E4A46017C74EFACB6A0 /* Headers */ = {
+		C7B0662394614EA038DA7E0CD81100A8 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BDEDA4C423B560E74F2A1A2D21D3A607 /* Pods-voronoimaptoolkit_Example-umbrella.h in Headers */,
+				34D685F18C97C0631D6BE4BFAA8DC768 /* Pods-voronoimaptoolkit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E571B69DF064E3CE2683B4BF33C38952 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D064B4B1E739840EE988FCCD368476A /* Beachsection.h in Headers */,
+				12FF1E483DC8071C5364AF172A205571 /* Cell.h in Headers */,
+				98F3A62D1DBFF25000842294 /* BHEVoronoiMapViewWrapper.h in Headers */,
+				D6BBAA7D8AE379545F50C6CB67D0E2CB /* CircleEvent.h in Headers */,
+				B991A2E8A17D52D3423A642BB56C0DDB /* ClayPathMaker.h in Headers */,
+				97F63023F48AFA4BFBB11703DE9D4710 /* ClayRelaxer.h in Headers */,
+				98F3A6211DBFE15F00842294 /* BHEVoronoiCell.h in Headers */,
+				8F3069F3DF5B5A261BA0DD19E72C041E /* Edge.h in Headers */,
+				B4F476922F7EEA95DC05B65CC7A6384C /* Halfedge.h in Headers */,
+				546B191066C0E648CF9A68DB2DBC86B1 /* iosvoronoi-umbrella.h in Headers */,
+				C6E337C1ECC138308F7103F14D33C41A /* RBTree.h in Headers */,
+				2CEBEC05BFFB2DDD18AD0DABC961D970 /* Site.h in Headers */,
+				B5062E0909DB7C980A081268A45DD26E /* Vertex.h in Headers */,
+				98F3A6311DBFF43100842294 /* BHEConstants.h in Headers */,
+				3F82DCE7F1C99E83DCFE6E86F2E86152 /* Voronoi.h in Headers */,
+				98F3A6191DBFDECF00842294 /* BHEVoronoiCellTower.h in Headers */,
+				351710E8E5A77EB6DC7CA2796AB2D9AE /* VoronoiConstants.h in Headers */,
+				418E58E098F0BAA288DD2DE091B49356 /* VoronoiResult.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		13AE08D55E1EFCF9274637CC71C176F7 /* voronoimaptoolkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4880E4F6F5E7DCA5782BB6D7549FAABB /* Build configuration list for PBXNativeTarget "voronoimaptoolkit" */;
+			buildPhases = (
+				8C06A43C05670410125EDD6C41B8F8DB /* Sources */,
+				6F35611A6A76F8FD3DBC6BF28F74AC68 /* Frameworks */,
+				2AF5D242443BBFBADA988BF44BE60E10 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				378A680C33743C2C29D9799FB803B34B /* PBXTargetDependency */,
+			);
+			name = voronoimaptoolkit;
+			productName = voronoimaptoolkit;
+			productReference = 7C4714BE30928FD07E6C4D752B795390 /* voronoimaptoolkit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		35242CD6B5CA1D071D4BB9A67F41A9AB /* Pods-voronoimaptoolkit_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6259BE08D5A2986AEC385DAB6FF71C3 /* Build configuration list for PBXNativeTarget "Pods-voronoimaptoolkit_Tests" */;
@@ -266,42 +473,43 @@
 			);
 			name = "Pods-voronoimaptoolkit_Tests";
 			productName = "Pods-voronoimaptoolkit_Tests";
-			productReference = 3E9565019CB626EDD8A071AA0C760B95 /* Pods_voronoimaptoolkit_Tests.framework */;
+			productReference = 979E7F7072EC21BCB86FEFA606AC9135 /* Pods_voronoimaptoolkit_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		36758A5E4F76CC01051A2FAA4BCB3938 /* voronoimaptoolkit */ = {
+		3FC65B332C49B9B58A19EFA31C4E4DB0 /* Pods-voronoimaptoolkit_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9C10517787958C44C1DFB5781D32CE66 /* Build configuration list for PBXNativeTarget "voronoimaptoolkit" */;
+			buildConfigurationList = FCFC0205397B387566E76C5CD66CD369 /* Build configuration list for PBXNativeTarget "Pods-voronoimaptoolkit_Example" */;
 			buildPhases = (
-				C9A86E64F7CE6EB77A3B73D3EBDBC332 /* Sources */,
-				C885505E8B03F6ACB0F3344AC4B2AF5E /* Frameworks */,
-				1E532E78AEE9126797E3A99F50FAD152 /* Headers */,
+				22D7DD30B83FF067194233CB6E961693 /* Sources */,
+				750AAC7DC60FD5EAAFA391BEBFC57098 /* Frameworks */,
+				C7B0662394614EA038DA7E0CD81100A8 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-			);
-			name = voronoimaptoolkit;
-			productName = voronoimaptoolkit;
-			productReference = 296A292D960AF134A94A5A0495C027D9 /* voronoimaptoolkit.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		4C54D4FF72C78D182A3486E321A75306 /* Pods-voronoimaptoolkit_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 4777BFE4CE90EDAFF71540599A5B4270 /* Build configuration list for PBXNativeTarget "Pods-voronoimaptoolkit_Example" */;
-			buildPhases = (
-				A120D87EF6F58AD9EC90140CC5F37E31 /* Sources */,
-				1BF54D93CFF138C4CFE0B56E02F29474 /* Frameworks */,
-				D2F88F54A4789E4A46017C74EFACB6A0 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				307CD387A281C7DFFCD81437FF2B5DB7 /* PBXTargetDependency */,
+				A4E667A2414B4A08FEECD4E4B59DB307 /* PBXTargetDependency */,
+				F1D49B80362C993E252EF32B254E7617 /* PBXTargetDependency */,
 			);
 			name = "Pods-voronoimaptoolkit_Example";
 			productName = "Pods-voronoimaptoolkit_Example";
-			productReference = 051AD2329DBE912595D08B835F81A9A0 /* Pods_voronoimaptoolkit_Example.framework */;
+			productReference = 11D37DF8244886F8115542E6F164F762 /* Pods_voronoimaptoolkit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		EE2AB50D3389C08B14A47AE3850A5CC0 /* iosvoronoi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F59C54C1D4740BD18188BE91FF1F900 /* Build configuration list for PBXNativeTarget "iosvoronoi" */;
+			buildPhases = (
+				F482D39B5CFE166924F788273FBC6184 /* Sources */,
+				FA5F10BE5783C0A44CB585AE1B998C86 /* Frameworks */,
+				E571B69DF064E3CE2683B4BF33C38952 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iosvoronoi;
+			productName = iosvoronoi;
+			productReference = 86F1592693937FEE788D9B3D0D33BB0B /* iosvoronoi.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -321,32 +529,56 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 5B4850A0AE4083FEE8D6AEC682FE215F /* Products */;
+			productRefGroup = 2484279858CF2B57747EEA13BC33BD5C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4C54D4FF72C78D182A3486E321A75306 /* Pods-voronoimaptoolkit_Example */,
+				EE2AB50D3389C08B14A47AE3850A5CC0 /* iosvoronoi */,
+				3FC65B332C49B9B58A19EFA31C4E4DB0 /* Pods-voronoimaptoolkit_Example */,
 				35242CD6B5CA1D071D4BB9A67F41A9AB /* Pods-voronoimaptoolkit_Tests */,
-				36758A5E4F76CC01051A2FAA4BCB3938 /* voronoimaptoolkit */,
+				13AE08D55E1EFCF9274637CC71C176F7 /* voronoimaptoolkit */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		A120D87EF6F58AD9EC90140CC5F37E31 /* Sources */ = {
+		22D7DD30B83FF067194233CB6E961693 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5A42417ED1C20571CA56E34CE308BCE9 /* Pods-voronoimaptoolkit_Example-dummy.m in Sources */,
+				89E7279A49E2B15DA07963049DCC7723 /* Pods-voronoimaptoolkit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C9A86E64F7CE6EB77A3B73D3EBDBC332 /* Sources */ = {
+		8C06A43C05670410125EDD6C41B8F8DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				917BC5D3584403E3D6742957310D9D62 /* ReplaceMe.m in Sources */,
-				4E57B41DC396778AA5B06584E14AB785 /* voronoimaptoolkit-dummy.m in Sources */,
+				98F3A6331DBFF78900842294 /* voronoimaptoolkit-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F482D39B5CFE166924F788273FBC6184 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B766E023EAA813A835EB1CED4ECA490C /* Beachsection.m in Sources */,
+				66584D960A148B48BCF84A4F747C113C /* Cell.m in Sources */,
+				32FAAF1193B27EB6DDF4F2A0A00076B7 /* CircleEvent.m in Sources */,
+				E3A397C282A68A4E3ABA574158F17AEA /* ClayPathMaker.m in Sources */,
+				D3D391D6233505657EB80F4F7368A0CC /* ClayRelaxer.m in Sources */,
+				80B01B2559A89FB7A514C0D34DE56777 /* Edge.m in Sources */,
+				98F3A6221DBFE15F00842294 /* BHEVoronoiCell.m in Sources */,
+				3B15F094696F2A5F77E375F265EA24B8 /* Halfedge.m in Sources */,
+				AF7CEA44AD20F165C97764FECD23BCB1 /* iosvoronoi-dummy.m in Sources */,
+				42B30E3E68A2FE9F5D5BA6B8F7B8F167 /* RBTree.m in Sources */,
+				C715C380E9ABC2E71A8378A4FC22791B /* Site.m in Sources */,
+				91A3DDA591714193D2D6BE69AF5E0C91 /* Vertex.m in Sources */,
+				E4A27EEB55C7D7555AFD554A369D06AA /* Voronoi.m in Sources */,
+				98F3A62E1DBFF25000842294 /* BHEVoronoiMapViewWrapper.m in Sources */,
+				98F3A61A1DBFDECF00842294 /* BHEVoronoiCellTower.m in Sources */,
+				32C47ED1E9BB21E4F8BE41F2CCDA3A69 /* VoronoiConstants.m in Sources */,
+				FB51FA5CF6D46944A1862AD494B4037B /* VoronoiResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,18 +593,30 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		307CD387A281C7DFFCD81437FF2B5DB7 /* PBXTargetDependency */ = {
+		378A680C33743C2C29D9799FB803B34B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iosvoronoi;
+			target = EE2AB50D3389C08B14A47AE3850A5CC0 /* iosvoronoi */;
+			targetProxy = 570A10702D979AB58601545397F4AC6D /* PBXContainerItemProxy */;
+		};
+		A4E667A2414B4A08FEECD4E4B59DB307 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iosvoronoi;
+			target = EE2AB50D3389C08B14A47AE3850A5CC0 /* iosvoronoi */;
+			targetProxy = 74C37DE659B9271A227912F241472770 /* PBXContainerItemProxy */;
+		};
+		F1D49B80362C993E252EF32B254E7617 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = voronoimaptoolkit;
-			target = 36758A5E4F76CC01051A2FAA4BCB3938 /* voronoimaptoolkit */;
-			targetProxy = 09B927DB5A29E31B0D8F68DA57E63A0C /* PBXContainerItemProxy */;
+			target = 13AE08D55E1EFCF9274637CC71C176F7 /* voronoimaptoolkit */;
+			targetProxy = A7E364567F65ED7A78BD08441833FA5C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		328BAEBE2AED0E71596A7DAC96AFA6CC /* Debug */ = {
+		0B4BB8E605AA59172CC9185240591090 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDED99B45FE8FF8086C8543AE676685F /* voronoimaptoolkit.xcconfig */;
+			baseConfigurationReference = 818A482ACE6E3285685847130F79D50B /* iosvoronoi.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -385,14 +629,14 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/voronoimaptoolkit/voronoimaptoolkit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/voronoimaptoolkit/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/iosvoronoi/iosvoronoi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iosvoronoi/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/voronoimaptoolkit/voronoimaptoolkit.modulemap";
+				MODULEMAP_FILE = "Target Support Files/iosvoronoi/iosvoronoi.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = voronoimaptoolkit;
+				PRODUCT_NAME = iosvoronoi;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -401,7 +645,38 @@
 			};
 			name = Debug;
 		};
-		3396ABD0B0534239BBE12B52F0D5E7AF /* Debug */ = {
+		3B48DFE6EDAFD0FA3A76113BF0CA6F27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDED99B45FE8FF8086C8543AE676685F /* voronoimaptoolkit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/voronoimaptoolkit/voronoimaptoolkit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/voronoimaptoolkit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/voronoimaptoolkit/voronoimaptoolkit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = voronoimaptoolkit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5BA4AD583AE50D67E8536E491FB631E3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 83E148EB036AFB6D7FBA83C398963ECF /* Pods-voronoimaptoolkit_Example.debug.xcconfig */;
 			buildSettings = {
@@ -435,41 +710,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		4C2005F95502605E3586FBEC0CF60594 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A42983A59C3F1075A927ED6EB855D10B /* Pods-voronoimaptoolkit_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-voronoimaptoolkit_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-voronoimaptoolkit_Example/Pods-voronoimaptoolkit_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_voronoimaptoolkit_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		6C2045997714D13DA3BDFB57491AD64D /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -505,6 +745,72 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		7EDF21D7672B2C4DA549BCFC22E3DEEF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A42983A59C3F1075A927ED6EB855D10B /* Pods-voronoimaptoolkit_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-voronoimaptoolkit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-voronoimaptoolkit_Example/Pods-voronoimaptoolkit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_voronoimaptoolkit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8A4A42F5081F0F7F52666B7A23FFDC37 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 818A482ACE6E3285685847130F79D50B /* iosvoronoi.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/iosvoronoi/iosvoronoi-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iosvoronoi/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/iosvoronoi/iosvoronoi.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = iosvoronoi;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		8DED8AD26D381A6ACFF202E5217EC498 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -590,37 +896,6 @@
 			};
 			name = Debug;
 		};
-		CAC14A432229EFDF1D4D533848C6EB41 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EDED99B45FE8FF8086C8543AE676685F /* voronoimaptoolkit.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/voronoimaptoolkit/voronoimaptoolkit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/voronoimaptoolkit/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/voronoimaptoolkit/voronoimaptoolkit.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = voronoimaptoolkit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		DCC49EE7EBA084E29FB6949C515EF1E8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A20608437D48AF0485793A7BE056E91B /* Pods-voronoimaptoolkit_Tests.release.xcconfig */;
@@ -656,6 +931,37 @@
 			};
 			name = Release;
 		};
+		F89924521EE4D571BD63201BDCD7EA20 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EDED99B45FE8FF8086C8543AE676685F /* voronoimaptoolkit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/voronoimaptoolkit/voronoimaptoolkit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/voronoimaptoolkit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/voronoimaptoolkit/voronoimaptoolkit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = voronoimaptoolkit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -668,20 +974,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4777BFE4CE90EDAFF71540599A5B4270 /* Build configuration list for PBXNativeTarget "Pods-voronoimaptoolkit_Example" */ = {
+		4880E4F6F5E7DCA5782BB6D7549FAABB /* Build configuration list for PBXNativeTarget "voronoimaptoolkit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3396ABD0B0534239BBE12B52F0D5E7AF /* Debug */,
-				4C2005F95502605E3586FBEC0CF60594 /* Release */,
+				F89924521EE4D571BD63201BDCD7EA20 /* Debug */,
+				3B48DFE6EDAFD0FA3A76113BF0CA6F27 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9C10517787958C44C1DFB5781D32CE66 /* Build configuration list for PBXNativeTarget "voronoimaptoolkit" */ = {
+		5F59C54C1D4740BD18188BE91FF1F900 /* Build configuration list for PBXNativeTarget "iosvoronoi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				328BAEBE2AED0E71596A7DAC96AFA6CC /* Debug */,
-				CAC14A432229EFDF1D4D533848C6EB41 /* Release */,
+				0B4BB8E605AA59172CC9185240591090 /* Debug */,
+				8A4A42F5081F0F7F52666B7A23FFDC37 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -691,6 +997,15 @@
 			buildConfigurations = (
 				6C2045997714D13DA3BDFB57491AD64D /* Debug */,
 				DCC49EE7EBA084E29FB6949C515EF1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCFC0205397B387566E76C5CD66CD369 /* Build configuration list for PBXNativeTarget "Pods-voronoimaptoolkit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BA4AD583AE50D67E8536E491FB631E3 /* Debug */,
+				7EDF21D7672B2C4DA549BCFC22E3DEEF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
