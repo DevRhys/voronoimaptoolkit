@@ -1,0 +1,6 @@
+framework module Pods_voronoimaptoolkit_Tests {
+  umbrella header "Pods-voronoimaptoolkit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

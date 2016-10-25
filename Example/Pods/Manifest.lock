@@ -1,0 +1,16 @@
+PODS:
+  - voronoimaptoolkit (0.1.0)
+
+DEPENDENCIES:
+  - voronoimaptoolkit (from `../`)
+
+EXTERNAL SOURCES:
+  voronoimaptoolkit:
+    :path: ../
+
+SPEC CHECKSUMS:
+  voronoimaptoolkit: f9013bc6353baefd86f66b8304c899763bec48ee
+
+PODFILE CHECKSUM: 70187c4008dc92fdaa4e4975054b0a72ed77aabe
+
+COCOAPODS: 1.1.0

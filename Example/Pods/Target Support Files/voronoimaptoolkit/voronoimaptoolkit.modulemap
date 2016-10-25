@@ -1,0 +1,6 @@
+framework module voronoimaptoolkit {
+  umbrella header "voronoimaptoolkit-umbrella.h"
+
+  export *
+  module * { export * }
+}
