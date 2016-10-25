@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'voronoimaptoolkit_Example' do
+  pod 'voronoimaptoolkit', :path => '../'
+
+  target 'voronoimaptoolkit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
